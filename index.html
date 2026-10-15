@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy – Tunnel Connectivity Test</title>
+<title>Privacy Policy – Tunnel &amp; Network Diagnostics</title>
 <style>
   body { font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #1f2937; }
   h1 { font-size: 1.6rem; }
@@ -13,20 +13,23 @@
 </head>
 <body>
 
-<h1>Privacy Policy – Tunnel Connectivity Test</h1>
-<p>Last updated: 12 October 2026</p>
+<h1>Privacy Policy – Tunnel &amp; Network Diagnostics</h1>
+<p>Last updated: 15 October 2026</p>
 
 <h2>Summary</h2>
-<p>Tunnel Connectivity Test (“the app”), published by Aleksey Zheltov (“the developer”), does not collect, store, share or sell any personal data. It has no accounts, no advertising, and no analytics or tracking SDKs.</p>
+<p>Tunnel &amp; Network Diagnostics (formerly “Tunnel Connectivity Test”; “the app”), published by Aleksey Zheltov (“the developer”), does not collect, store, share or sell any personal data. It has no accounts, no advertising, and no analytics or tracking SDKs.</p>
 
 <h2>How the app works</h2>
-<p>You enter a host name, IP address, port or URL and run DNS, TCP, TLS or HTTP checks. The requests are sent directly from your device to the hosts you specify. The results are shown on your screen only and are not sent to the developer or to any third party. The app does not store what you type or the results after it is closed.</p>
+<p>You enter a host name, IP address, port or URL and run DNS, TCP, TLS or HTTP checks. The requests are sent directly from your device to the hosts you specify.</p>
+<p>The “Possible Data Leak detection” check additionally connects to a fixed set of public reference endpoints (login.microsoftonline.com, www.microsoft.com, www.google.com, example.com, connectivitycheck.gstatic.com) and performs DNS lookups (dns.google, one.one.one.one and a random non-existent name under example.com) to detect traffic interception, DNS tampering and traffic leaking around a VPN.</p>
+<p>The “Network/VPN” and “MDM policies” functions read, on the device only, the network configuration (interfaces, addresses, routes, DNS, proxy, VPN state), device-management state and restrictions, basic device security settings, and whether certain management apps are installed.</p>
+<p>All results are shown on your screen only and are not sent to the developer or to any third party. A result leaves the device only if you choose to share it – a single result or all results of the session (“Share all”) – to a destination you select. Shared text includes the app version, the device model and the Android version. Results can be shared as text, an HTML page or a PDF document; HTML and PDF files (and long text exports) are passed to the selected app as temporary files in the app’s private cache, and only the latest few are kept. The app does not keep what you type or the results after it is closed.</p>
 
 <h2>Permissions</h2>
-<p>The app requests only the Internet permission, which is needed to perform the checks you start.</p>
+<p>Internet – to perform the checks you start. Access network state and Access Wi-Fi state – to display the network configuration. The app also declares visibility of a small, fixed list of apps (Intune Company Portal, Microsoft Defender, Microsoft Authenticator, Microsoft Intune, Android Device Policy, Microsoft Edge and Magisk) only to report whether they are installed; this information never leaves the device. The app does not request location, phone or storage permissions.</p>
 
 <h2>Data sharing</h2>
-<p>The app does not share data with third parties. Servers that you choose to connect to may log your device’s IP address and request details in accordance with their own policies.</p>
+<p>The app does not share data with third parties. Servers that you choose to connect to, and the reference endpoints listed above, may log your device’s IP address and request details in accordance with their own policies.</p>
 
 <h2>Data security, retention and deletion</h2>
 <p>The app does not collect or store personal or sensitive user data, so there is no such data to secure, retain, export or delete. Uninstalling the app removes all of its local data from your device.</p>
@@ -42,20 +45,23 @@
 
 <hr>
 
-<h1 lang="ru">Политика конфиденциальности – Tunnel Connectivity Test</h1>
-<p lang="ru">Дата последнего обновления: 12 октября 2026 г.</p>
+<h1 lang="ru">Политика конфиденциальности – Tunnel &amp; Network Diagnostics</h1>
+<p lang="ru">Дата последнего обновления: 15 октября 2026 г.</p>
 
 <h2 lang="ru">Кратко</h2>
-<p lang="ru">Tunnel Connectivity Test («приложение»), опубликованное разработчиком Aleksey Zheltov («разработчик»), не собирает, не хранит, не передаёт и не продаёт персональные данные. В нём нет аккаунтов, рекламы, аналитики и трекеров.</p>
+<p lang="ru">Tunnel &amp; Network Diagnostics (ранее «Tunnel Connectivity Test»; «приложение»), опубликованное разработчиком Aleksey Zheltov («разработчик»), не собирает, не хранит, не передаёт и не продаёт персональные данные. В нём нет аккаунтов, рекламы, аналитики и трекеров.</p>
 
 <h2 lang="ru">Как работает приложение</h2>
-<p lang="ru">Вы вводите имя хоста, IP-адрес, порт или URL и запускаете проверки DNS, TCP, TLS или HTTP. Запросы отправляются напрямую с вашего устройства на указанные вами хосты. Результаты показываются только на экране и не отправляются ни разработчику, ни третьим лицам. Приложение не сохраняет введённые данные и результаты после закрытия.</p>
+<p lang="ru">Вы вводите имя хоста, IP-адрес, порт или URL и запускаете проверки DNS, TCP, TLS или HTTP. Запросы отправляются напрямую с вашего устройства на указанные вами хосты.</p>
+<p lang="ru">Проверка «Possible Data Leak detection» дополнительно подключается к фиксированному набору публичных эталонных адресов (login.microsoftonline.com, www.microsoft.com, www.google.com, example.com, connectivitycheck.gstatic.com) и выполняет DNS-запросы (dns.google, one.one.one.one и случайное несуществующее имя в домене example.com), чтобы выявить перехват трафика, подмену DNS и утечку трафика мимо VPN.</p>
+<p lang="ru">Функции «Network/VPN» и «MDM policies» только на устройстве считывают сетевую конфигурацию (интерфейсы, адреса, маршруты, DNS, прокси, состояние VPN), состояние управления устройством и ограничения, базовые настройки безопасности устройства, а также то, установлены ли определённые приложения управления.</p>
+<p lang="ru">Все результаты показываются только на экране и не отправляются ни разработчику, ни третьим лицам. Результат покидает устройство, только если вы сами отправите его выбранному вами получателю – по отдельности или все результаты сеанса сразу («Share all»). В отправляемый текст включаются версия приложения, модель устройства и версия Android. Результаты можно отправить текстом, HTML-страницей или PDF-документом; файлы HTML и PDF (и длинные текстовые выгрузки) передаются выбранному приложению как временные файлы в закрытом кэше приложения, хранятся только несколько последних. Приложение не сохраняет введённые данные и результаты после закрытия.</p>
 
 <h2 lang="ru">Разрешения</h2>
-<p lang="ru">Приложение запрашивает только доступ в интернет – он нужен для выполнения запускаемых вами проверок.</p>
+<p lang="ru">Интернет – для выполнения запускаемых вами проверок. Доступ к состоянию сети и Wi-Fi – для отображения сетевой конфигурации. Приложение также объявляет видимость небольшого фиксированного списка приложений (Intune Company Portal, Microsoft Defender, Microsoft Authenticator, Microsoft Intune, Android Device Policy, Microsoft Edge и Magisk) только чтобы показать, установлены ли они; эта информация не покидает устройство. Приложение не запрашивает доступ к местоположению, телефону или хранилищу.</p>
 
 <h2 lang="ru">Передача данных</h2>
-<p lang="ru">Приложение не передаёт данные третьим лицам. Серверы, к которым вы подключаетесь, могут записывать IP-адрес вашего устройства и сведения о запросе в соответствии с собственными правилами.</p>
+<p lang="ru">Приложение не передаёт данные третьим лицам. Серверы, к которым вы подключаетесь, и перечисленные выше эталонные адреса могут записывать IP-адрес вашего устройства и сведения о запросе в соответствии с собственными правилами.</p>
 
 <h2 lang="ru">Защита, хранение и удаление данных</h2>
 <p lang="ru">Приложение не собирает и не хранит персональные и конфиденциальные данные пользователя, поэтому защищать, хранить, экспортировать или удалять нечего. При удалении приложения все его локальные данные удаляются с устройства.</p>
